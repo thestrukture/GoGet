@@ -3,7 +3,6 @@
     $trukture.addPlugin({
      	name: "Goget-from-github",
      	show : function(code){
-               console.log(code);
      		return  ( !code.includes("\n") &&  code.includes("github.com")  )
      	},
      	exec : function(code){
