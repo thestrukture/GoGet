@@ -1,5 +1,5 @@
 # GoGet-from-Github
-Download dependencies as you write your code.
+Download dependencies as you write your code. JS plugin of [the Struktue IDE](https://github.com/thestrukture/IDE).
 
 # Demo
 
