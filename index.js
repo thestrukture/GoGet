@@ -3,7 +3,7 @@
     $trukture.addPlugin({
      	name: "Goget-from-github",
      	show : function(code){
-     		return  ( !code.includes("\n") &&  code.includes("github.com")  )
+     		return  ( !code.includes("\n") &&  code.includes(".")  )
      	},
      	exec : function(code){
      			var formatstring = code.replace('"', '').replace('"', '').replace(/\s/g,'');
